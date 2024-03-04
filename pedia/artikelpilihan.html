@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biopedia</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/pilihan.css" />
+  </head>
+  <body>
+    <!-- Search Bar -->
+    <div class="center-logo">
+      <img src="../img/logo_white.png" alt="Logo Biopedia" />
+      <div class="search-bar">
+        <input id="searchInput" type="text" placeholder="Mau nyari apa?" />
+        <button id="searchButton" type="button">Cari</button>
+      </div>
+    </div>
+    <!-- Search Bar End -->
+
+    <!-- Back Button -->
+    <a href="../index.html" class="back-button">Halaman Utama</a>
+    <!-- Back Button End -->
+
+    <!-- Article Start -->
+    <section id="artikel">
+      <div class="container">
+        <div class="row text-center mb-3 pt-5">
+          <div class="col">
+            <h2>Artikel Pilihan</h2>
+          </div>
+        </div>
+        <div class="row pb-5">
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="artikel-box1">
+              <h4 class="judul-artikel">Kucing</h4>
+              <img src="../img/cat.png" alt="kucing" class="artikel-img" />
+              <a href="kucing.html" class="btn btn-light see-artikel-button">lihat artikel</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="artikel-box2">
+              <h4 class="judul-artikel">Mangga</h4>
+              <img src="../img/mango.png" alt="mangga" class="artikel-img" />
+              <a href="mangga.html" class="btn btn-light see-artikel-button">lihat artikel</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="artikel-box3">
+              <h4 class="judul-artikel">DNA</h4>
+              <img src="../img/dna.png" alt="dna" class="artikel-img" />
+              <a href="dna.html" class="btn btn-light see-artikel-button">lihat artikel</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Article End -->
+
+    <script src="../js/script.js"></script>
+    <script type="text/javascript" src="../js/vanilla-tilt.min.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll('.artikel-box1, .artikel-box2, .artikel-box3'), {
+        max: 25,
+        speed: 400,
+        glare: true,
+      });
+    </script>
+  </body>
+</html>

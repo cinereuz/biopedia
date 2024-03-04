@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biopedia</title>
+    <style>
+      body,
+      html {
+        background-color: white;
+      }
+
+      h1 {
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+      }
+
+      img {
+        position: absolute;
+        top: 40%;
+        left: 75%; /* Geser gambar ke kanan dari pusat */
+        transform: translate(-50%, -50%);
+        max-width: 20%; /* Atur lebar maksimal gambar */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Maaf, data tentang <span id="searchTerm"></span> belum ditambahkan.</h1>
+    <img src="../img/sorry.gif" alt="sorry" />
+
+    <script>
+      // Ambil parameter kata yang dicari dari URL
+      const urlParams = new URLSearchParams(window.location.search);
+      const searchTerm = urlParams.get('q');
+
+      // Tampilkan kata yang dicari di dalam span dengan id "searchTerm"
+      const searchTermElement = document.getElementById('searchTerm');
+      searchTermElement.textContent = searchTerm;
+    </script>
+  </body>
+</html>
