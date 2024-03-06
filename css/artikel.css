@@ -153,8 +153,7 @@ h3 {
 }
 
 .content h1,
-.content h2,
-.content h3 {
+.content h2 {
   font-family: 'abril';
   font-weight: 500;
 }
@@ -311,7 +310,7 @@ footer {
 /* Gaya untuk tautan di dalam footer */
 .footer-info a {
   text-decoration: none;
-  color: black;
+  color: #f1ef99;
   font-weight: bold;
 }
 .footer-info p {
@@ -319,5 +318,5 @@ footer {
 }
 
 .footer-info a:hover {
-  color: white;
+  color: #ad88c6;
 }
