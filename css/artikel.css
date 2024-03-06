@@ -1,3 +1,20 @@
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-regular-webfont.woff2') format('woff2'), url('../font/poppins-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'abril';
+  src: url('../font/abrilfatface-regular-webfont.woff2') format('woff2'), url('../font/abrilfatface-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'poppins';
+}
+
 /* bar pencarian */
 .search-bar {
   margin-right: 100px;
@@ -133,6 +150,13 @@ h1,
 h2,
 h3 {
   color: #333;
+}
+
+.content h1,
+.content h2,
+.content h3 {
+  font-family: 'abril';
+  font-weight: 500;
 }
 
 p {

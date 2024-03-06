@@ -1,6 +1,20 @@
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-regular-webfont.woff2') format('woff2'), url('../font/poppins-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'abril';
+  src: url('../font/abrilfatface-regular-webfont.woff2') format('woff2'), url('../font/abrilfatface-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Artikel Pilihan */
 body {
   color: #000;
+  font-family: 'poppins';
 }
 
 /* tombol kembali */
@@ -59,6 +73,9 @@ body {
 
 h2 {
   color: #fff;
+  font-family: 'abril';
+  font-weight: 500;
+  margin-bottom: 40px;
 }
 
 /* Box 1 */

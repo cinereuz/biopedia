@@ -1,8 +1,22 @@
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-regular-webfont.woff2') format('woff2'), url('../font/poppins-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'abril';
+  src: url('../font/abrilfatface-regular-webfont.woff2') format('woff2'), url('../font/abrilfatface-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body,
 html {
   height: 100%;
   margin: 0;
-  background-color: beige;
+  background-color: #f9f7f7;
+  font-family: 'poppins';
 }
 
 /* main */
@@ -89,6 +103,8 @@ html {
 h1 {
   text-align: center;
   margin-top: 40px;
+  font-family: 'abril';
+  font-weight: 500;
 }
 
 ul.two-row-list {
