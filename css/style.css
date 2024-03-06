@@ -15,7 +15,7 @@ body,
 html {
   height: 100%;
   margin: 0;
-  background-color: #f9f7f7;
+  background-color: #fefbf6;
   font-family: 'poppins';
 }
 
@@ -141,10 +141,15 @@ li {
 li a {
   text-decoration: none;
   color: #333;
+  padding: 20px;
+  transition: all 0.3s;
 }
 
 li a:hover {
-  color: #007bff;
+  background-color: #535c91;
+  border-radius: 5px;
+  background-size: 20%;
+  color: #fff;
 }
 
 .back-button {
@@ -156,15 +161,16 @@ li a:hover {
 .back-button a {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #96b6c5;
+  background-color: #9290c3;
   color: white;
   text-decoration: none;
   border-radius: 5px;
   margin-bottom: 20px;
+  transition: all 0.3s;
 }
 
 .back-button a:hover {
-  background-color: #0056b3;
+  background-color: #1b1a55;
 }
 /* daftarisi end*/
 
@@ -215,3 +221,7 @@ li a:hover {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 /* content search pedia end*/
+
+.article-list li a {
+  margin-bottom: 20px;
+}
