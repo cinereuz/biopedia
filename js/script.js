@@ -14,6 +14,12 @@ document.addEventListener('DOMContentLoaded', function () {
       window.location.href = '../pedia/dna.html';
     } else if (searchText === 'mangga') {
       window.location.href = '../pedia/mangga.html';
+    } else if (searchText === 'katalase') {
+      window.location.href = '../pedia/katalase.html';
+    } else if (searchText === 'enzim katalase') {
+      window.location.href = '../pedia/katalase.html';
+    } else if (searchText === 'adaptasi') {
+      window.location.href = '../pedia/adaptasi.html';
     } else {
       window.location.href = `../pedia/sorry.html?q=${searchText}`;
     }
